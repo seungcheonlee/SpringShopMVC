@@ -47,4 +47,4 @@ My Spring MVC pattern Shop project.
 <img width="655" alt="스크린샷 2022-02-19 오후 4 25 46" src="https://user-images.githubusercontent.com/85739056/154795419-f125f87c-9395-4fb4-8990-af900d27cecd.png">
 <img width="841" alt="스크린샷 2022-02-19 오후 4 26 23" src="https://user-images.githubusercontent.com/85739056/154795421-a6b1dca3-56da-4187-b2b5-453813a8cd79.png">
 <img width="1244" alt="스크린샷 2022-02-19 오후 5 36 15" src="https://user-images.githubusercontent.com/85739056/154795426-c3491452-f378-40f7-9264-6b7ac5cd5af4.png">
-![KakaoTalk_Photo_2022-02-19-18-36-11](https://user-images.githubusercontent.com/85739056/154795427-4cac25ce-0448-4bf6-bf49-f418648ff0b0.jpeg)
+<img width="833" alt="스크린샷 2022-02-19 오후 6 37 16" src="https://user-images.githubusercontent.com/85739056/154795450-88d1f694-3f75-43cb-a0fd-0c667a80fc47.png">
