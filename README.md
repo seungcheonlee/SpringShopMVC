@@ -13,3 +13,4 @@ My Spring MVC pattern Shop project.
 <img width="447" alt="스크린샷 2022-02-19 오후 6 09 20" src="https://user-images.githubusercontent.com/85739056/154794498-d1c96c83-c0ca-402f-ac0b-fb6384ef1312.png">
 <img width="438" alt="스크린샷 2022-02-19 오후 6 09 11" src="https://user-images.githubusercontent.com/85739056/154794504-854f5253-09b1-429c-b8a7-0c5e4311c9c0.png">
 
+4. 주요 기능 로직
