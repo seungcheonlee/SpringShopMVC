@@ -26,5 +26,11 @@ My Spring MVC pattern Shop project.
 - 세션 로그인 구현(String 변수 name을 통해 로그인시 jsp view에서 sessionScope.name 을 통해 자동으로 로그인 유저 이름 보이게하는 기능 설정도 있음.
 <img width="1053" alt="스크린샷 2022-02-19 오후 4 06 58" src="https://user-images.githubusercontent.com/85739056/154794910-a515788c-fe12-4c37-93a7-32f5992414a8.png">
 - 배포 디렉토리 설정, 실제 서비스 경로(로컬에서 개발한 디렉토리와 배포시 디렉토리 구별) 임시 디렉토리를 transferto를 통해 첨부파일이 지정된 디렉토리에 복사. 없으면 기존 정보 가져와서 셋팅
+<img width="1053" alt="스크린샷 2022-02-19 오후 4 33 19" src="https://user-images.githubusercontent.com/85739056/154794989-b0c5323f-aba4-4a5c-b208-5c91ea852530.png">
+<img width="784" alt="스크린샷 2022-02-19 오후 5 32 29" src="https://user-images.githubusercontent.com/85739056/154794995-d7180cb1-aab6-429b-8dca-50dbbb065f49.png">
+<img width="711" alt="스크린샷 2022-02-19 오후 5 32 34" src="https://user-images.githubusercontent.com/85739056/154794998-130e2e63-7ee5-4f9a-b893-ad95efdf2487.png">
+- 상품 등록 jsp에서 sessionScope를 이용해 로그인이 아닐 경우 상품 수정으로 이동하는 기능, 상품 등록도 함께 가능. 장바구니는 session 값이 존재할 때 이용 가능.
+- 장바구니의 상품은 여러개 일 수 있어서 배열을 사용함. 장바구니는 시퀀스로 자동 등록된 int[]형인 cart_id를 for문으로 돌면서 amount의 수량이 0이면 자동 삭제하도록 설정함
+- 장바구니 리스트에서 HashMap을 사용하여 key, value의 형태로 전체합계, 배송료 계산 등의 데이터를 map에 저장후 ModelAndView의 addObject를 통해 객체에 담아 cart_list로 전달
 
 
