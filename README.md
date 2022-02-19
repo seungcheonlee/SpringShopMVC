@@ -24,4 +24,7 @@ My Spring MVC pattern Shop project.
 - 첨부파일 업로드, UUID 를 사용하여 첨부파일 이름이 겹치지 않도록 고유 식별자를 부여.
 <img width="1043" alt="스크린샷 2022-02-19 오후 6 19 18" src="https://user-images.githubusercontent.com/85739056/154794816-63653289-8336-459e-905a-b01df2c1121e.png">
 - 세션 로그인 구현(String 변수 name을 통해 로그인시 jsp view에서 sessionScope.name 을 통해 자동으로 로그인 유저 이름 보이게하는 기능 설정도 있음.
+<img width="1053" alt="스크린샷 2022-02-19 오후 4 06 58" src="https://user-images.githubusercontent.com/85739056/154794910-a515788c-fe12-4c37-93a7-32f5992414a8.png">
+- 배포 디렉토리 설정, 실제 서비스 경로(로컬에서 개발한 디렉토리와 배포시 디렉토리 구별) 임시 디렉토리를 transferto를 통해 첨부파일이 지정된 디렉토리에 복사. 없으면 기존 정보 가져와서 셋팅
+
 
