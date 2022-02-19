@@ -22,3 +22,6 @@ My Spring MVC pattern Shop project.
 
 <img width="747" alt="스크린샷 2022-02-18 오후 11 11 20" src="https://user-images.githubusercontent.com/85739056/154794696-efe7fbe7-68f3-43d4-ae45-722433f9cc6a.png">
 - 첨부파일 업로드, UUID 를 사용하여 첨부파일 이름이 겹치지 않도록 고유 식별자를 부여.
+<img width="1043" alt="스크린샷 2022-02-19 오후 6 19 18" src="https://user-images.githubusercontent.com/85739056/154794816-63653289-8336-459e-905a-b01df2c1121e.png">
+- 세션 로그인 구현(String 변수 name을 통해 로그인시 jsp view에서 sessionScope.name 을 통해 자동으로 로그인 유저 이름 보이게하는 기능 설정도 있음.
+
