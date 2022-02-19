@@ -32,5 +32,13 @@ My Spring MVC pattern Shop project.
 - 상품 등록 jsp에서 sessionScope를 이용해 로그인이 아닐 경우 상품 수정으로 이동하는 기능, 상품 등록도 함께 가능. 장바구니는 session 값이 존재할 때 이용 가능.
 - 장바구니의 상품은 여러개 일 수 있어서 배열을 사용함. 장바구니는 시퀀스로 자동 등록된 int[]형인 cart_id를 for문으로 돌면서 amount의 수량이 0이면 자동 삭제하도록 설정함
 - 장바구니 리스트에서 HashMap을 사용하여 key, value의 형태로 전체합계, 배송료 계산 등의 데이터를 map에 저장후 ModelAndView의 addObject를 통해 객체에 담아 cart_list로 전달
+<img width="692" alt="스크린샷 2022-02-19 오후 6 29 15" src="https://user-images.githubusercontent.com/85739056/154795191-b2d8d009-3fe3-4dd5-bbea-57457a307ae0.png">
+<img width="809" alt="스크린샷 2022-02-19 오후 6 28 47" src="https://user-images.githubusercontent.com/85739056/154795194-fa957a33-5ded-4bbd-a95f-706c04ec131b.png">
+<img width="649" alt="스크린샷 2022-02-19 오후 6 28 58" src="https://user-images.githubusercontent.com/85739056/154795200-189a1c65-51eb-4818-aed4-c41f48d4e226.png">
+- 구글 차트 API 셋팅
+- cart_DAO를 의존 주입하여 List와 제네릭을 사용해 json 형태로 객체를 생성(JSONObject)
+- 향상된 for문을 사용해 cartDTO에 저장되었던 상품이름, 가격을 get 메소드로 호출하여 객체에 저장
+- 전체 객체가 body.add를 통해 전체 객체를 바디에 추가함.
+- 구글 라이브러리 함수 chart.draw를 통해 구글 차트 데이터 시각화 구현.
 
-
+5. 주요 기능 구현 완성 페이지
