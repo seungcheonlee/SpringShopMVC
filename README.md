@@ -42,3 +42,9 @@ My Spring MVC pattern Shop project.
 - 구글 라이브러리 함수 chart.draw를 통해 구글 차트 데이터 시각화 구현.
 
 5. 주요 기능 구현 완성 페이지
+<img width="706" alt="스크린샷 2022-02-19 오후 4 24 09" src="https://user-images.githubusercontent.com/85739056/154795410-f3ee00c4-d0d1-4681-b743-4e85c8c99d04.png">
+<img width="1231" alt="스크린샷 2022-02-19 오후 4 21 26" src="https://user-images.githubusercontent.com/85739056/154795415-b7562727-ea36-4f73-9484-cfd5f945f05b.png">
+<img width="655" alt="스크린샷 2022-02-19 오후 4 25 46" src="https://user-images.githubusercontent.com/85739056/154795419-f125f87c-9395-4fb4-8990-af900d27cecd.png">
+<img width="841" alt="스크린샷 2022-02-19 오후 4 26 23" src="https://user-images.githubusercontent.com/85739056/154795421-a6b1dca3-56da-4187-b2b5-453813a8cd79.png">
+<img width="1244" alt="스크린샷 2022-02-19 오후 5 36 15" src="https://user-images.githubusercontent.com/85739056/154795426-c3491452-f378-40f7-9264-6b7ac5cd5af4.png">
+![KakaoTalk_Photo_2022-02-19-18-36-11](https://user-images.githubusercontent.com/85739056/154795427-4cac25ce-0448-4bf6-bf49-f418648ff0b0.jpeg)
